@@ -1,0 +1,48 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-check-circle {
+  color: #150544;
+}
+
+.gradient-blue {
+  background: linear-gradient(to bottom, white 50%, #e7f6ff 50%);
+}
+.blue {
+  background: #6552ff;
+  color: white;
+}
+.blue-font {
+  color: #6552ff;
+}
+
+.blue:hover {
+  background: #6552ff;
+  color: white;
+}
+/* font-dark-blue */
+.font-dark-blue {
+  color: #150544;
+}
+/* //bg-dark-blue */
+.story-color {
+  background: #150544;
+  color: white;
+}
+.story-color:hover {
+  background: #150544;
+  color: white;
+}
+.first-letter {
+  font-size: 12rem;
+}
+@media screen and (max-width: 576px) {
+  .first-letter {
+    font-size: 4rem;
+  }
+  .first-letter::before {
+    font-size: 4rem;
+  }
+}
